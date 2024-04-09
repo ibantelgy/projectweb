@@ -1,0 +1,31 @@
+{%extends 'core/base.html'%}
+{% load static %}
+
+  {%block title%}
+    Portfolio | Mi sitio web
+  {% endblock %}
+
+  {% block background %}
+    {% static 'core/img/portfolio-bg.jpg' %}
+  {% endblock %}
+
+  {% block headers %}
+    <h1>Iban Formoso</h1>
+    <P>Este es mi portfolio</p>
+  {% endblock %}
+
+  {%block content%}
+    <h2>Este es mi portfolio</h2>
+    <ul>
+      <li>
+        <a href="https://pipenv-es.readthedocs.io/es/latest/">
+            Todo sobre Pipenv
+        </a>
+      </li>
+      <li>
+        <a href="https://wiki.postgresql.org/wiki/FAQ/es">
+            Todo sobre Postgresql
+        </a>
+      </li>
+    </ul>
+  {% endblock %}

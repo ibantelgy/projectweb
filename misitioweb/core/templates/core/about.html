@@ -1,0 +1,20 @@
+{%extends 'core/base.html'%}
+{% load static %}
+
+  {%block title%}
+    Acerca de | Mi sitio web
+  {% endblock %}
+  
+  {% block background %}
+    {% static 'core/img/about-bg.jpg' %}
+  {% endblock %}
+
+  {% block headers %}
+    <h1>Iban Formoso</h1>
+    <P>Un poco sobre mi</p>
+  {% endblock %}
+  
+  {%block content%}
+    <h2>Acerca de </h2>
+    <p>Me llamo Iban Formoso y esto es Django!!!</p>
+  {% endblock %}
